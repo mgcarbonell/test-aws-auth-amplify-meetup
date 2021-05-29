@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/hello",
+      "lambdaFunction": "testawsmeetup",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/hello"
+    }
+  ],
+  "resourceName": "meetuptestapi",
+  "apiName": "meetuptestapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "testawsmeetup"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-testawsauthamplifyme-dev-135518-authRole",
+    "unAuthRoleName": "amplify-testawsauthamplifyme-dev-135518-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "testawsmeetup",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

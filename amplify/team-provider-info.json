@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testawsauthamplifyme-dev-135518-authRole",
+      "UnauthRoleArn": "arn:aws:iam::238585963247:role/amplify-testawsauthamplifyme-dev-135518-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::238585963247:role/amplify-testawsauthamplifyme-dev-135518-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-testawsauthamplifyme-dev-135518-deployment",
+      "UnauthRoleName": "amplify-testawsauthamplifyme-dev-135518-unauthRole",
+      "StackName": "amplify-testawsauthamplifyme-dev-135518",
+      "StackId": "arn:aws:cloudformation:us-west-2:238585963247:stack/amplify-testawsauthamplifyme-dev-135518/2eb4b260-c0c0-11eb-b7b4-06cc55e9445d",
+      "AmplifyAppId": "d3nf22b3qkx1j8"
+    },
+    "categories": {
+      "auth": {
+        "testawsauthamplifyme8662c46b": {}
+      },
+      "function": {
+        "testawsmeetup": {
+          "deploymentBucketName": "amplify-testawsauthamplifyme-dev-135518-deployment",
+          "s3Key": "amplify-builds/testawsmeetup-69526944423433743030-build.zip"
+        }
+      }
+    }
+  }
+}
